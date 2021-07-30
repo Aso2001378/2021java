@@ -4,7 +4,10 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args){
-        System.out.println("title");
+        
+        for(int a=1;a<3; a++){
+            System.out.println(a+"ターン目");
+        }
 
         System.out.println("船1生きている");
         System.out.println("船2生きている");
@@ -32,6 +35,7 @@ public class Main {
         arr[1][1]=20;
         arr[2][0]=100;
         arr[2][1]=200;
-    }
-}
 
+
+        }
+    }
